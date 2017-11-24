@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
+   
+<liferay-portlet-app>   
+    <!-- 
+	<portlet>  
+		<portlet-name>ifame-pentaho</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>/js/jquery-2.1.1.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>ifame-pentaho-portlet</css-class-wrapper>
+	</portlet>     
+	<portlet>        
+		<portlet-name>pentaho-link</portlet-name>
+		<icon>/icon.png</icon> 
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>/js/jquery-2.1.1.js</footer-portlet-javascript>
+		<footer-portlet-javascript>
+			/js/pentahoLink.js
+		</footer-portlet-javascript> 
+		<css-class-wrapper>pentaho-link-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>  
+		<portlet-name>test-muti</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>true</instanceable>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>test-muti-portlet</css-class-wrapper>
+	</portlet>
+	
+	
+	<portlet>  
+		<portlet-name>test-config-page</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>true</instanceable>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>test-config-page-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>test-config2</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>true</instanceable>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>test-config2-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>config3</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>true</instanceable>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>config3-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>config4</portlet-name>
+		<icon>/icon.png</icon>
+		<configuration-action-class>com.liferay.portal.kernel.portlet.DefaultConfigurationAction</configuration-action-class>
+		<instanceable>true</instanceable>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript> 
+		<css-class-wrapper>config4-portlet</css-class-wrapper>
+	</portlet>  
+	         
+	 -->
+	         
+	<portlet> 
+		<portlet-name>gjifame</portlet-name>
+		<icon>/icon.png</icon>
+		<!-- 
+		<configuration-action-class>com.liferay.portal.kernel.portlet.DefaultConfigurationAction</configuration-action-class>
+		-->
+		<instanceable>true</instanceable>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<header-portlet-css>/js/bootstrap/css/bootstrap.min.css</header-portlet-css>
+		
+		<footer-portlet-javascript>/js/jquery-2.1.1.js</footer-portlet-javascript> 
+		<footer-portlet-javascript>/js/bootstrap-tooltip.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/bootstrap-popover.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/bootstrap.min.2.3.2.js</footer-portlet-javascript>
+		
+		        
+		
+		 
+		<footer-portlet-javascript>/js/ckeditor/ckeditor.js</footer-portlet-javascript> 
+		<!-- <footer-portlet-javascript>/js/cGjifame.js</footer-portlet-javascript> -->
+		<footer-portlet-javascript>/js/cPreferences.js</footer-portlet-javascript>     
+		                          
+          
+		<css-class-wrapper>gjifame-portlet</css-class-wrapper>
+	</portlet>
+	
+	<!-- 
+	<portlet>
+		<portlet-name>preference_page</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>true</instanceable>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>preference_page-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>preference_page2</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>true</instanceable>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>preference_page2-portlet</css-class-wrapper>
+	</portlet>
+	 -->
+	<role-mapper>    
+		<role-name>administrator</role-name>    
+		<role-link>Administrator</role-link>
+	</role-mapper>  
+	<role-mapper>     
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>     
+	<role-mapper> 
+		<role-name>power-user</role-name>   
+		<role-link>Power User</role-link>    
+	</role-mapper>        
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+</liferay-portlet-app> 
+
+          
